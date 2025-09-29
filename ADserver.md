@@ -26,15 +26,19 @@ Common Security Threats:
 # Setup
 
 This server is asigned a static IP address
+
 ![image](images/image6.png)
 
 This server will also be the domain controller, and also the DNS and DHCP server for this network.
 To correctly handle DNS requests for all connected devices, including workstations and other networked systems, we need to add the 8.8.8.8 address as a forwarder. This is the address for the Google DNS server.
+
 ![image](images/image7.png)
 
 For the DHCP part, I just defined the scope address range. I also set the default gateway with the 10.0.0.1 address.
+
 ![image](images/image8.png)
 
 In the end, i will add the user accounts in AD. Each account will be associated to a workstation.
 For this project, I will add the users John and Jane Doe.
+
 ![image](images/image9.png)
