@@ -14,7 +14,7 @@ Wazuh has a built-in rule detection to detect authentication failures from the s
 
 Based on the information in this log, I can create a monitor that will alert me if there are three failed log in attempts on this machine.
 
-![image](imges/log4.png)
+![image](images/log4.png)
 
 ![image](images/log5.png)
 
