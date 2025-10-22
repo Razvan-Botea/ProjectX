@@ -50,6 +50,7 @@ Samba Winbind: A component of the Samba suite that allows Linux systems to authe
 ![winbind](images/winbind.png)
 
 10. Login as janed
+
 ![janed login](images/janed-login.png)
 
 ![janed id](images/janedID.png)
