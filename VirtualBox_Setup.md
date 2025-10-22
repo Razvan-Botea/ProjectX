@@ -32,18 +32,21 @@ After that, I can start configuring my first VM, running windows server 2025:
 First i need to choose the ISO image i the OS will boot from, in this case it is a Windows server 2022 OS, then i assign the hardware specifications and the size of the virtual hard disk:
 
 ![hardware](images/hardware.png)
-![virtual disk](images.virtual_disk.png)
+![virtual disk](images/virtual_disk.png)
 
 
 Now i let the OS boot and i can continue with the setup of the Active Directory server.
  - configure the static IPv4 properties
+
 ![AD ipv4](images/ADipv4.png)
 
  - configure domain for my AD server:
+
 ![AD domain](images/ADDS.png)
 
  - set up Active Directory Domain Services
  - this server will aslo act as the DNS and DHCP server for my network
+
 ![ADDS](images/DNS-DHCP.png)
 
 - adding the 8.8.8.8 address (google DNS server's address) as a forwarder to my DNS server, so that my network can access the internet
