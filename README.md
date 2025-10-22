@@ -1,5 +1,4 @@
 # ProjectX
-Reason for creating this project:
 With this project, I want to build a basic home lab.
 It will contain different technologies, from servers to hosts.
 It will be an intentionally vulnerable network, that I will then use to test different tools and methods for gaining and maintaining access to a system.
